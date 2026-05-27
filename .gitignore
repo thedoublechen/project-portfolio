@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.idea_OLDOLL/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables & Secrets
+.env
+config.py
+
+# Dataset folders (fetched data)
+allhomes_dataset/
+google_dataset_filtered/
+gsv_australia_dataset/
+kartaview_dataset/
+kartaview_dataset_filtered/
+kartaview_dataset_polygon/
+mapillary_dataset/
+mapillary_dataset_filtered/
+mapillary_dataset_NT_TAS/
+dataset_duplicates_backup/
+counts_out/
+
+# Models (will be sent to Google bucket)
+models/
+
+# Dataset archives
+*.zip
+
+# Cache folders
+kartaview_cache/
+suburb_boundaries_cache/
+
+# Logs and reports
+api_call_log.json
+api_call_log_OLD.json
+operation_log.txt
+dataset_report.txt
+
+# Keep these files (examples of what to commit)
+# - *.py (all Python scripts)
+# - config files without secrets
+# - README.md
+# - requirements.txt (if you have one)
